@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
@@ -175,8 +175,8 @@ section {
           flex: 1 1 42rem;
 }
 
-.home .content h3 {
-  font-size: 4.5rem;
+.home .content h1 {
+  font-size: 3.5rem;
   text-transform: capitalize;
   color: #334;
 }
@@ -253,7 +253,7 @@ section {
           flex: 1 1 42rem;
 }
 
-.about .content h3 {
+.about .content h2 {
   font-size: 3rem;
   text-transform: capitalize;
   color: #334;
