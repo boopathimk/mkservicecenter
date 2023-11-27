@@ -180,6 +180,11 @@ section {
   text-transform: capitalize;
   color: #334;
 }
+.home .content h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.945);
+}
 
 .home .content p {
   font-size: 2.3rem;
@@ -212,7 +217,7 @@ section {
   height: 10rem;
 }
 
-.fun-fact .box h3 {
+.fun-fact .box h4 {
   font-size: 4rem;
   text-transform: capitalize;
   color: #334;
@@ -253,8 +258,14 @@ section {
           flex: 1 1 42rem;
 }
 
-.about .content h2 {
+.about .content h3 {
   font-size: 3rem;
+  text-transform: capitalize;
+  color: #334;
+  padding-bottom: .5rem;
+}
+.about .content h4 {
+  font-size: 1.8rem;
   text-transform: capitalize;
   color: #334;
   padding-bottom: .5rem;
@@ -294,8 +305,8 @@ section {
 
 .services .box-container .box:hover h3 {
   color: #fff;
+  font-size: 2rem;
 }
-
 .services .box-container .box:hover p {
   color: #fff;
 }
@@ -305,10 +316,10 @@ section {
   margin-bottom: .5rem;
 }
 
-.services .box-container .box h3 {
+.services .box-container .box h4 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: #334;
+  color: rgb(123, 123, 139);
   padding: 1rem 0;
 }
 
@@ -381,11 +392,11 @@ section {
   margin-bottom: .5rem;
 }
 
-.facilities .box-container .box h3 {
+.facilities .box-container .box h4 {
   padding: 1rem 0;
   font-size: 2rem;
   text-transform: capitalize;
-  color: #334;
+  color: rgb(124, 124, 173);
 }
 
 .facilities .box-container .box p {
